@@ -1,0 +1,356 @@
+:root {
+  --white-color: #ffffff;
+  --active-color: #ff6c00;
+  --title-color: #303030;
+  --first-text-color: #9da4bd;
+  --second-text-color: #555555;
+  --top-text: rgba(157, 164, 189, 0.6);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+/**---------------------HEADER----------------------- **/
+
+.header {
+  background-color: rgb(209, 199, 199);
+}
+.header-nav {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--white-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--active-color);
+}
+
+.header-address {
+}
+.header-address-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.header-btn {
+  color: var(--white-color);
+}
+
+/**---------------------HERO----------------------- **/
+
+.hero {
+  background-color: rgb(209, 199, 199);
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--title-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--active-color);
+}
+.hero-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--top-text);
+}
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+.hero-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+}
+
+/**---------------------HERO----------------------- **/
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.about-title {
+  color: var(--title-color);
+}
+.about-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.about-btn {
+  color: var(--title-color);
+}
+
+/**---------------------PRICES----------------------- **/
+
+.prices {
+}
+.prices-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--top-text);
+}
+.prices-title {
+  color: var(--white-color);
+}
+.prices-list {
+}
+.prices-item {
+}
+.prices-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+}
+
+.prices-btn {
+  color: var(--white-color);
+}
+
+/**---------------------BENEFITS----------------------- **/
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+}
+
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--title-color);
+}
+
+.benefits-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.benefits-title {
+  color: var(--title-color);
+}
+
+.benefits-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+/**---------------------BARBERS----------------------- **/
+
+.barbers {
+}
+.barbers-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.barbers-title {
+  color: var(--title-color);
+}
+.barbers-list {
+}
+.barbers-item {
+}
+.barbers-item-title {
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.barbers-item-text {
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+  color: var(--active-color);
+}
+
+/**---------------------BARBERS----------------------- **/
+
+.gallery {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.gallery-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.gallery-list {
+}
+.gallery-item {
+}
+
+/**---------------------ONLINE-BOOKING----------------------- **/
+
+.online-booking {
+}
+.online-booking-title {
+  color: var(--white-color);
+}
+
+.online-booking-btn {
+  color: var(--white-color);
+}
+
+/**---------------------CONTACTS ----------------------- **/
+
+.contacts {
+}
+.contacts-title {
+  color: var(--white-color);
+}
+.contacts-address {
+  font-style: normal;
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-link {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+}
+.contacts-link:nth-child(1) {
+  font-weight: 700;
+}
+.contacts-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.contacts-schedule {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/**---------------------FOOTER----------------------- **/
+
+.footer {
+}
+.footer-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--first-text-color);
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--title-color);
+}
